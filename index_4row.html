@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Chat & 4 in a Row</title>
+    <link rel="stylesheet" href="style_4row.css">
+</head>
+<body class="dark-mode">
+    <div id="game-container">
+        <div id="game-board">
+            <!-- Game board cells will be generated here by JavaScript -->
+        </div>
+    </div>
+
+    <div id="chat-window" class="chat-floating">
+        <div id="chat-header">Gemini Chat</div>
+        <div id="chat-display">
+            <!-- Chat messages will be displayed here -->
+        </div>
+        <div id="chat-input-area">
+            <button id="new-game-button" type="button">New Game</button>
+            <form id="chat-form" action="#" method="dialog">
+                <label for="message-input" class="visually-hidden">Type your chat message to Gemini:</label>
+                <textarea id="message-input" placeholder="Type your chat message to Gemini..."></textarea>
+                <button id="send-button" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script_4row.js"></script>
+</body>
+</html>
